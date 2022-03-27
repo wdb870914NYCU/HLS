@@ -1750,3 +1750,2080 @@ java.lang.NullPointerException
 
 !ENTRY org.eclipse.launchbar.core 2 0 2022-03-26 18:34:41.361
 !MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:00:03.073
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_tag_info -json C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:00:03.193
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_tag_info -json C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa ], Result: [null, {"ps7_cortexa9_0": "",
+"ps7_cortexa9_1": "",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdx.core 1 0 2022-03-27 21:14:26.438
+!MESSAGE Build step failed, canceling full build chain.
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:26.459
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/sw/Zynq_Design_wrapper/standalone_ps7_cortexa9_0/system.mss ], Thread: Worker-521: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:26.523
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/sw/Zynq_Design_wrapper/standalone_ps7_cortexa9_0/system.mss ], Result: [null, ]. Thread: Worker-521: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:26.523
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/sw/Zynq_Design_wrapper/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-521: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:26.566
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/sw/Zynq_Design_wrapper/standalone_ps7_cortexa9_0/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "7.6",
+}]. Thread: Worker-521: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2022-03-27 21:14:26.567
+!MESSAGE Generating MD5 hash for file: C:\Users\wdb87\Documents\LabA\Using_IP_with_Zynq\lab1\Zynq_Design_wrapper\export\Zynq_Design_wrapper\sw\Zynq_Design_wrapper\standalone_ps7_cortexa9_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:26.568
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/sw/Zynq_Design_wrapper/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-521: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:26.574
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/sw/Zynq_Design_wrapper/standalone_ps7_cortexa9_0/system.mss], Result: [null, ]. Thread: Worker-521: Build Project
+
+!ENTRY org.eclipse.tcf 4 0 2022-03-27 21:14:47.397
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2022-03-27 21:14:47.397
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:48.072
+!MESSAGE XSCT Command: [connect -url tcp:localhost:4352], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:48.291
+!MESSAGE XSCT command with result: [connect -url tcp:localhost:4352], Result: [null, tcfchan#2]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:48.292
+!MESSAGE XSCT Command: [gdbremote connect localhost:1137], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:48.504
+!MESSAGE XSCT command with result: [gdbremote connect localhost:1137], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:48.510
+!MESSAGE XSCT Command: [::hsi::utils::get_ps_config_params -json C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa], Thread: Worker-525: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:48.746
+!MESSAGE XSCT command with result: [::hsi::utils::get_ps_config_params -json C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa], Result: [null, {"PCW_APU_PERIPHERAL_FREQMHZ": "666.666666",
+"PCW_DDR_HPRLPR_QUEUE_PARTITION": "HPR(0)/LPR(32)",
+"PCW_DDR_HPR_TO_CRITICAL_PRIORITY_LEVEL": "15",
+"PCW_DDR_LPR_TO_CRITICAL_PRIORITY_LEVEL": "2",
+"PCW_DDR_PORT0_HPR_ENABLE": "0",
+"PCW_DDR_PORT1_HPR_ENABLE": "0",
+"PCW_DDR_PORT2_HPR_ENABLE": "0",
+"PCW_DDR_PORT3_HPR_ENABLE": "0",
+"PCW_DDR_WRITE_TO_CRITICAL_PRIORITY_LEVEL": "2",
+"PCW_FPGA0_PERIPHERAL_FREQMHZ": "50",
+"PCW_UIPARAM_DDR_BUS_WIDTH": "32 Bit",
+"PCW_UIPARAM_DDR_FREQ_MHZ": "533.333333",
+}]. Thread: Worker-525: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:48.746
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa ps7_cortexa9_0], Thread: Worker-525: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:48.805
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa ps7_cortexa9_0], Result: [null, {"hls_macc_0": {"CTRL": {"description": "Control signals",
+"address_offset": "0",
+"access": "read-write",
+"size": "32",
+"interface": "s_axi_HLS_MACC_PERIPH_BUS",
+"fields": {"AP_START": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Control signal Register for 'ap_start'.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"AP_DONE": {"access": "read-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Control signal Register for 'ap_done'.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+"AP_IDLE": {"access": "read-only",
+"bit_offset": "2",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Control signal Register for 'ap_idle'.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+"AP_READY": {"access": "read-only",
+"bit_offset": "3",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Control signal Register for 'ap_ready'.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+"RESERVED_1": {"access": "read-only",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "3",
+"desc": "Reserved.  0s on read.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+"AUTO_RESTART": {"access": "read-write",
+"bit_offset": "7",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Control signal Register for 'auto_restart'.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RESERVED_2": {"access": "read-only",
+"bit_offset": "8",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Reserved.  0s on read.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+"RESERVED_3": {"access": "read-only",
+"bit_offset": "9",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Reserved.  0s on read.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+"RESERVED_4": {"access": "read-only",
+"bit_offset": "10",
+"bit_range": "",
+"bit_width": "22",
+"desc": "Reserved.  0s on read.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+},
+"memoryAddr": 0,
+},
+"GIER": {"description": "Global Interrupt Enable Register",
+"address_offset": "4",
+"access": "read-write",
+"size": "32",
+"interface": "s_axi_HLS_MACC_PERIPH_BUS",
+"fields": {"Enable": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master enable for the device interrupt output to the system interrupt controller: 0 = Disabled, 1 = Enabled",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RESERVED": {"access": "read-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "31",
+"desc": "Reserved.  0s on read.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+},
+"memoryAddr": 4,
+},
+"IP_IER": {"description": "IP Interrupt Enable Register",
+"address_offset": "8",
+"access": "read-write",
+"size": "32",
+"interface": "s_axi_HLS_MACC_PERIPH_BUS",
+"fields": {"CHAN0_INT_EN": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 0 (ap_done) Interrupt.  0 = Disabled, 1 = Enabled.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"CHAN1_INT_EN": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 1 (ap_ready) Interrupt.  0 = Disabled, 1 = Enabled.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RESERVED_0": {"access": "read-only",
+"bit_offset": "2",
+"bit_range": "",
+"bit_width": "3",
+"desc": "Reserved.  0s on read.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+"CHAN2_INT_EN": {"access": "read-write",
+"bit_offset": "5",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 2 (ap_local_deadlock) Interrupt.  0 = Disabled, 1 = Enabled.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RESERVED_1": {"access": "read-only",
+"bit_offset": "6",
+"bit_range": "",
+"bit_width": "26",
+"desc": "Reserved.  0s on read.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+},
+"memoryAddr": 8,
+},
+"IP_ISR": {"description": "IP Interrupt Status Register",
+"address_offset": "12",
+"access": "read-write",
+"size": "32",
+"interface": "s_axi_HLS_MACC_PERIPH_BUS",
+"fields": {"CHAN0_INT_ST": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 0 (ap_done) Interrupt Status. 0 = No Channel 0 input interrupt, 1 = Channel 0 input interrup",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+"CHAN1_INT_ST": {"access": "read-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 1 (ap_ready) Interrupt Status. 0 = No Channel 1 input interrupt, 1 = Channel 1 input interrup",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+"RESERVED_0": {"access": "read-only",
+"bit_offset": "2",
+"bit_range": "",
+"bit_width": "3",
+"desc": "Reserved.  0s on read.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+"CHAN2_INT_ST": {"access": "read-only",
+"bit_offset": "5",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 2 (ap_local_deadlock) Interrupt Status. 0 = No Channel 2 input interrupt, 1 = Channel 2 input interrup",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+"RESERVED_1": {"access": "read-only",
+"bit_offset": "6",
+"bit_range": "",
+"bit_width": "26",
+"desc": "Reserved.  0s on read.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+},
+"memoryAddr": 12,
+},
+"a": {"description": "Data signal of a",
+"address_offset": "16",
+"access": "write-only",
+"size": "32",
+"interface": "s_axi_HLS_MACC_PERIPH_BUS",
+"fields": {"a": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 of a",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 16,
+},
+"b": {"description": "Data signal of b",
+"address_offset": "24",
+"access": "write-only",
+"size": "32",
+"interface": "s_axi_HLS_MACC_PERIPH_BUS",
+"fields": {"b": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 of b",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 24,
+},
+"accum": {"description": "Data signal of accum",
+"address_offset": "32",
+"access": "read-only",
+"size": "32",
+"interface": "s_axi_HLS_MACC_PERIPH_BUS",
+"fields": {"accum": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 of accum",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+},
+"memoryAddr": 32,
+},
+"accum_ctrl": {"description": "Control signal of accum",
+"address_offset": "36",
+"access": "read-only",
+"size": "32",
+"interface": "s_axi_HLS_MACC_PERIPH_BUS",
+"fields": {"accum_ap_vld": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Control signal accum_ap_vld",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+"RESERVED": {"access": "read-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "31",
+"desc": "Reserved.  0s on read.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+},
+"memoryAddr": 36,
+},
+"accum_clr": {"description": "Data signal of accum_clr",
+"address_offset": "48",
+"access": "write-only",
+"size": "32",
+"interface": "s_axi_HLS_MACC_PERIPH_BUS",
+"fields": {"accum_clr": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Bit 0 to 0 of accum_clr",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RESERVED": {"access": "read-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "31",
+"desc": "Reserved.  0s on read.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+},
+"memoryAddr": 48,
+},
+},
+"ps7_afi_0": {},
+"ps7_afi_1": {},
+"ps7_afi_2": {},
+"ps7_afi_3": {},
+"ps7_can_0": {},
+"ps7_coresight_comp_0": {},
+"ps7_ddr_0": {},
+"ps7_ddrc_0": {},
+"ps7_dev_cfg_0": {},
+"ps7_dma_ns": {},
+"ps7_dma_s": {},
+"ps7_ethernet_0": {},
+"ps7_globaltimer_0": {},
+"ps7_gpio_0": {},
+"ps7_gpv_0": {},
+"ps7_i2c_0": {},
+"ps7_intc_dist_0": {},
+"ps7_iop_bus_config_0": {},
+"ps7_l2cachec_0": {},
+"ps7_ocmc_0": {},
+"ps7_pl310_0": {},
+"ps7_pmu_0": {},
+"ps7_qspi_0": {},
+"ps7_qspi_linear_0": {},
+"ps7_ram_0": {},
+"ps7_ram_1": {},
+"ps7_scuc_0": {},
+"ps7_scugic_0": {},
+"ps7_scutimer_0": {},
+"ps7_scuwdt_0": {},
+"ps7_sd_0": {},
+"ps7_slcr_0": {},
+"ps7_uart_1": {},
+"ps7_usb_0": {},
+"ps7_xadc_0": {},
+}]. Thread: Worker-525: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:48.814
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa ps7_cortexa9_0], Thread: Worker-525: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:48.847
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa ps7_cortexa9_0], Result: [null, {"hls_macc_0_s_axi_HLS_MACC_PERIPH_BUS": {"name": "hls_macc_0",
+"base": "0x40000000",
+"high": "0x4000FFFF",
+"size": "65536",
+"slaveintf": "s_axi_HLS_MACC_PERIPH_BUS",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_0": {"name": "ps7_afi_0",
+"base": "0xF8008000",
+"high": "0xF8008FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_1": {"name": "ps7_afi_1",
+"base": "0xF8009000",
+"high": "0xF8009FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_2": {"name": "ps7_afi_2",
+"base": "0xF800A000",
+"high": "0xF800AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_3": {"name": "ps7_afi_3",
+"base": "0xF800B000",
+"high": "0xF800BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_can_0": {"name": "ps7_can_0",
+"base": "0xE0008000",
+"high": "0xE0008FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_coresight_comp_0": {"name": "ps7_coresight_comp_0",
+"base": "0xF8800000",
+"high": "0xF88FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddrc_0": {"name": "ps7_ddrc_0",
+"base": "0xF8006000",
+"high": "0xF8006FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dev_cfg_0": {"name": "ps7_dev_cfg_0",
+"base": "0xF8007000",
+"high": "0xF80070FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_ns": {"name": "ps7_dma_ns",
+"base": "0xF8004000",
+"high": "0xF8004FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_s": {"name": "ps7_dma_s",
+"base": "0xF8003000",
+"high": "0xF8003FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ethernet_0": {"name": "ps7_ethernet_0",
+"base": "0xE000B000",
+"high": "0xE000BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_globaltimer_0": {"name": "ps7_globaltimer_0",
+"base": "0xF8F00200",
+"high": "0xF8F002FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpio_0": {"name": "ps7_gpio_0",
+"base": "0xE000A000",
+"high": "0xE000AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpv_0": {"name": "ps7_gpv_0",
+"base": "0xF8900000",
+"high": "0xF89FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_i2c_0": {"name": "ps7_i2c_0",
+"base": "0xE0004000",
+"high": "0xE0004FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_intc_dist_0": {"name": "ps7_intc_dist_0",
+"base": "0xF8F01000",
+"high": "0xF8F01FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_iop_bus_config_0": {"name": "ps7_iop_bus_config_0",
+"base": "0xE0200000",
+"high": "0xE0200FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_l2cachec_0": {"name": "ps7_l2cachec_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ocmc_0": {"name": "ps7_ocmc_0",
+"base": "0xF800C000",
+"high": "0xF800CFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pl310_0": {"name": "ps7_pl310_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pmu_0": {"name": "ps7_pmu_0",
+"base": "0xF8893000",
+"high": "0xF8893FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_0": {"name": "ps7_qspi_0",
+"base": "0xE000D000",
+"high": "0xE000DFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_linear_0": {"name": "ps7_qspi_linear_0",
+"base": "0xFC000000",
+"high": "0xFCFFFFFF",
+"size": "16777216",
+"slaveintf": "",
+"type": "FLASH",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuc_0": {"name": "ps7_scuc_0",
+"base": "0xF8F00000",
+"high": "0xF8F000FC",
+"size": "253",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scugic_0": {"name": "ps7_scugic_0",
+"base": "0xF8F00100",
+"high": "0xF8F001FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scutimer_0": {"name": "ps7_scutimer_0",
+"base": "0xF8F00600",
+"high": "0xF8F0061F",
+"size": "32",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuwdt_0": {"name": "ps7_scuwdt_0",
+"base": "0xF8F00620",
+"high": "0xF8F006FF",
+"size": "224",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_sd_0": {"name": "ps7_sd_0",
+"base": "0xE0100000",
+"high": "0xE0100FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_slcr_0": {"name": "ps7_slcr_0",
+"base": "0xF8000000",
+"high": "0xF8000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_uart_1": {"name": "ps7_uart_1",
+"base": "0xE0001000",
+"high": "0xE0001FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_usb_0": {"name": "ps7_usb_0",
+"base": "0xE0002000",
+"high": "0xE0002FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_xadc_0": {"name": "ps7_xadc_0",
+"base": "0xF8007100",
+"high": "0xF8007120",
+"size": "33",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddr_0": {"name": "ps7_ddr_0",
+"base": "0x00100000",
+"high": "0x3FFFFFFF",
+"size": "1072693248",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_0": {"name": "ps7_ram_0",
+"base": "0x00000000",
+"high": "0x0002FFFF",
+"size": "196608",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_1": {"name": "ps7_ram_1",
+"base": "0xFFFF0000",
+"high": "0xFFFFFDFF",
+"size": "65024",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-525: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:48.848
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa ps7_cortexa9_0 C_DEBUG_ENABLED], Thread: Worker-525: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:48.851
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa ps7_cortexa9_0 C_DEBUG_ENABLED], Result: [null, ]. Thread: Worker-525: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:48.852
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa ps7_cortexa9_0 C_DEBUG_EVENT_COUNTERS], Thread: Worker-525: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:48.853
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa ps7_cortexa9_0 C_DEBUG_EVENT_COUNTERS], Result: [null, ]. Thread: Worker-525: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:48.853
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa ps7_cortexa9_0 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-525: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:48.854
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa ps7_cortexa9_0 C_DEBUG_LATENCY_COUNTERS], Result: [null, ]. Thread: Worker-525: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:48.855
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa ps7_cortexa9_0 C_DEBUG_COUNTER_WIDTH], Thread: Worker-525: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:48.856
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa ps7_cortexa9_0 C_DEBUG_COUNTER_WIDTH], Result: [null, ]. Thread: Worker-525: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:48.856
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa ps7_cortexa9_0 C_FREQ], Thread: Worker-525: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:48.857
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa ps7_cortexa9_0 C_FREQ], Result: [null, ]. Thread: Worker-525: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:48.858
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa ps7_cortexa9_0 C_CPU_CLK_FREQ_HZ], Thread: Worker-525: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:48.859
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa ps7_cortexa9_0 C_CPU_CLK_FREQ_HZ], Result: [null, 666666687]. Thread: Worker-525: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:48.860
+!MESSAGE XSCT Command: [::hsi::utils::get_cpu_nr -json C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa], Thread: Worker-525: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:48.867
+!MESSAGE XSCT command with result: [::hsi::utils::get_cpu_nr -json C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa], Result: [null, {"ps7_cortexa9_0": {"bscan": "",
+"index": "0",
+},
+"ps7_cortexa9_1": {"bscan": "",
+"index": "1",
+},
+}]. Thread: Worker-525: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:48.868
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa ps7_cortexa9_1], Thread: Worker-525: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:48.878
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa ps7_cortexa9_1], Result: [null, {"hls_macc_0": {"CTRL": {"description": "Control signals",
+"address_offset": "0",
+"access": "read-write",
+"size": "32",
+"interface": "s_axi_HLS_MACC_PERIPH_BUS",
+"fields": {"AP_START": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Control signal Register for 'ap_start'.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"AP_DONE": {"access": "read-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Control signal Register for 'ap_done'.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+"AP_IDLE": {"access": "read-only",
+"bit_offset": "2",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Control signal Register for 'ap_idle'.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+"AP_READY": {"access": "read-only",
+"bit_offset": "3",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Control signal Register for 'ap_ready'.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+"RESERVED_1": {"access": "read-only",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "3",
+"desc": "Reserved.  0s on read.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+"AUTO_RESTART": {"access": "read-write",
+"bit_offset": "7",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Control signal Register for 'auto_restart'.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RESERVED_2": {"access": "read-only",
+"bit_offset": "8",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Reserved.  0s on read.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+"RESERVED_3": {"access": "read-only",
+"bit_offset": "9",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Reserved.  0s on read.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+"RESERVED_4": {"access": "read-only",
+"bit_offset": "10",
+"bit_range": "",
+"bit_width": "22",
+"desc": "Reserved.  0s on read.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+},
+"memoryAddr": 0,
+},
+"GIER": {"description": "Global Interrupt Enable Register",
+"address_offset": "4",
+"access": "read-write",
+"size": "32",
+"interface": "s_axi_HLS_MACC_PERIPH_BUS",
+"fields": {"Enable": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master enable for the device interrupt output to the system interrupt controller: 0 = Disabled, 1 = Enabled",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RESERVED": {"access": "read-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "31",
+"desc": "Reserved.  0s on read.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+},
+"memoryAddr": 4,
+},
+"IP_IER": {"description": "IP Interrupt Enable Register",
+"address_offset": "8",
+"access": "read-write",
+"size": "32",
+"interface": "s_axi_HLS_MACC_PERIPH_BUS",
+"fields": {"CHAN0_INT_EN": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 0 (ap_done) Interrupt.  0 = Disabled, 1 = Enabled.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"CHAN1_INT_EN": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 1 (ap_ready) Interrupt.  0 = Disabled, 1 = Enabled.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RESERVED_0": {"access": "read-only",
+"bit_offset": "2",
+"bit_range": "",
+"bit_width": "3",
+"desc": "Reserved.  0s on read.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+"CHAN2_INT_EN": {"access": "read-write",
+"bit_offset": "5",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 2 (ap_local_deadlock) Interrupt.  0 = Disabled, 1 = Enabled.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RESERVED_1": {"access": "read-only",
+"bit_offset": "6",
+"bit_range": "",
+"bit_width": "26",
+"desc": "Reserved.  0s on read.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+},
+"memoryAddr": 8,
+},
+"IP_ISR": {"description": "IP Interrupt Status Register",
+"address_offset": "12",
+"access": "read-write",
+"size": "32",
+"interface": "s_axi_HLS_MACC_PERIPH_BUS",
+"fields": {"CHAN0_INT_ST": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 0 (ap_done) Interrupt Status. 0 = No Channel 0 input interrupt, 1 = Channel 0 input interrup",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+"CHAN1_INT_ST": {"access": "read-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 1 (ap_ready) Interrupt Status. 0 = No Channel 1 input interrupt, 1 = Channel 1 input interrup",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+"RESERVED_0": {"access": "read-only",
+"bit_offset": "2",
+"bit_range": "",
+"bit_width": "3",
+"desc": "Reserved.  0s on read.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+"CHAN2_INT_ST": {"access": "read-only",
+"bit_offset": "5",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 2 (ap_local_deadlock) Interrupt Status. 0 = No Channel 2 input interrupt, 1 = Channel 2 input interrup",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+"RESERVED_1": {"access": "read-only",
+"bit_offset": "6",
+"bit_range": "",
+"bit_width": "26",
+"desc": "Reserved.  0s on read.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+},
+"memoryAddr": 12,
+},
+"a": {"description": "Data signal of a",
+"address_offset": "16",
+"access": "write-only",
+"size": "32",
+"interface": "s_axi_HLS_MACC_PERIPH_BUS",
+"fields": {"a": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 of a",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 16,
+},
+"b": {"description": "Data signal of b",
+"address_offset": "24",
+"access": "write-only",
+"size": "32",
+"interface": "s_axi_HLS_MACC_PERIPH_BUS",
+"fields": {"b": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 of b",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 24,
+},
+"accum": {"description": "Data signal of accum",
+"address_offset": "32",
+"access": "read-only",
+"size": "32",
+"interface": "s_axi_HLS_MACC_PERIPH_BUS",
+"fields": {"accum": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 of accum",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+},
+"memoryAddr": 32,
+},
+"accum_ctrl": {"description": "Control signal of accum",
+"address_offset": "36",
+"access": "read-only",
+"size": "32",
+"interface": "s_axi_HLS_MACC_PERIPH_BUS",
+"fields": {"accum_ap_vld": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Control signal accum_ap_vld",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+"RESERVED": {"access": "read-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "31",
+"desc": "Reserved.  0s on read.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+},
+"memoryAddr": 36,
+},
+"accum_clr": {"description": "Data signal of accum_clr",
+"address_offset": "48",
+"access": "write-only",
+"size": "32",
+"interface": "s_axi_HLS_MACC_PERIPH_BUS",
+"fields": {"accum_clr": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Bit 0 to 0 of accum_clr",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RESERVED": {"access": "read-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "31",
+"desc": "Reserved.  0s on read.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+},
+"memoryAddr": 48,
+},
+},
+"ps7_afi_0": {},
+"ps7_afi_1": {},
+"ps7_afi_2": {},
+"ps7_afi_3": {},
+"ps7_can_0": {},
+"ps7_coresight_comp_0": {},
+"ps7_ddr_0": {},
+"ps7_ddrc_0": {},
+"ps7_dev_cfg_0": {},
+"ps7_dma_ns": {},
+"ps7_dma_s": {},
+"ps7_ethernet_0": {},
+"ps7_globaltimer_0": {},
+"ps7_gpio_0": {},
+"ps7_gpv_0": {},
+"ps7_i2c_0": {},
+"ps7_intc_dist_0": {},
+"ps7_iop_bus_config_0": {},
+"ps7_l2cachec_0": {},
+"ps7_ocmc_0": {},
+"ps7_pl310_0": {},
+"ps7_pmu_0": {},
+"ps7_qspi_0": {},
+"ps7_qspi_linear_0": {},
+"ps7_ram_0": {},
+"ps7_ram_1": {},
+"ps7_scuc_0": {},
+"ps7_scugic_0": {},
+"ps7_scutimer_0": {},
+"ps7_scuwdt_0": {},
+"ps7_sd_0": {},
+"ps7_slcr_0": {},
+"ps7_uart_1": {},
+"ps7_usb_0": {},
+"ps7_xadc_0": {},
+}]. Thread: Worker-525: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:48.879
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa ps7_cortexa9_1], Thread: Worker-525: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:48.892
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa ps7_cortexa9_1], Result: [null, {"hls_macc_0_s_axi_HLS_MACC_PERIPH_BUS": {"name": "hls_macc_0",
+"base": "0x40000000",
+"high": "0x4000FFFF",
+"size": "65536",
+"slaveintf": "s_axi_HLS_MACC_PERIPH_BUS",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_0": {"name": "ps7_afi_0",
+"base": "0xF8008000",
+"high": "0xF8008FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_1": {"name": "ps7_afi_1",
+"base": "0xF8009000",
+"high": "0xF8009FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_2": {"name": "ps7_afi_2",
+"base": "0xF800A000",
+"high": "0xF800AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_3": {"name": "ps7_afi_3",
+"base": "0xF800B000",
+"high": "0xF800BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_can_0": {"name": "ps7_can_0",
+"base": "0xE0008000",
+"high": "0xE0008FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_coresight_comp_0": {"name": "ps7_coresight_comp_0",
+"base": "0xF8800000",
+"high": "0xF88FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddrc_0": {"name": "ps7_ddrc_0",
+"base": "0xF8006000",
+"high": "0xF8006FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dev_cfg_0": {"name": "ps7_dev_cfg_0",
+"base": "0xF8007000",
+"high": "0xF80070FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_ns": {"name": "ps7_dma_ns",
+"base": "0xF8004000",
+"high": "0xF8004FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_s": {"name": "ps7_dma_s",
+"base": "0xF8003000",
+"high": "0xF8003FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ethernet_0": {"name": "ps7_ethernet_0",
+"base": "0xE000B000",
+"high": "0xE000BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_globaltimer_0": {"name": "ps7_globaltimer_0",
+"base": "0xF8F00200",
+"high": "0xF8F002FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpio_0": {"name": "ps7_gpio_0",
+"base": "0xE000A000",
+"high": "0xE000AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpv_0": {"name": "ps7_gpv_0",
+"base": "0xF8900000",
+"high": "0xF89FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_i2c_0": {"name": "ps7_i2c_0",
+"base": "0xE0004000",
+"high": "0xE0004FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_intc_dist_0": {"name": "ps7_intc_dist_0",
+"base": "0xF8F01000",
+"high": "0xF8F01FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_iop_bus_config_0": {"name": "ps7_iop_bus_config_0",
+"base": "0xE0200000",
+"high": "0xE0200FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_l2cachec_0": {"name": "ps7_l2cachec_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ocmc_0": {"name": "ps7_ocmc_0",
+"base": "0xF800C000",
+"high": "0xF800CFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pl310_0": {"name": "ps7_pl310_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pmu_0": {"name": "ps7_pmu_0",
+"base": "0xF8893000",
+"high": "0xF8893FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_0": {"name": "ps7_qspi_0",
+"base": "0xE000D000",
+"high": "0xE000DFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_linear_0": {"name": "ps7_qspi_linear_0",
+"base": "0xFC000000",
+"high": "0xFCFFFFFF",
+"size": "16777216",
+"slaveintf": "",
+"type": "FLASH",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuc_0": {"name": "ps7_scuc_0",
+"base": "0xF8F00000",
+"high": "0xF8F000FC",
+"size": "253",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scugic_0": {"name": "ps7_scugic_0",
+"base": "0xF8F00100",
+"high": "0xF8F001FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scutimer_0": {"name": "ps7_scutimer_0",
+"base": "0xF8F00600",
+"high": "0xF8F0061F",
+"size": "32",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuwdt_0": {"name": "ps7_scuwdt_0",
+"base": "0xF8F00620",
+"high": "0xF8F006FF",
+"size": "224",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_sd_0": {"name": "ps7_sd_0",
+"base": "0xE0100000",
+"high": "0xE0100FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_slcr_0": {"name": "ps7_slcr_0",
+"base": "0xF8000000",
+"high": "0xF8000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_uart_1": {"name": "ps7_uart_1",
+"base": "0xE0001000",
+"high": "0xE0001FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_usb_0": {"name": "ps7_usb_0",
+"base": "0xE0002000",
+"high": "0xE0002FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_xadc_0": {"name": "ps7_xadc_0",
+"base": "0xF8007100",
+"high": "0xF8007120",
+"size": "33",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddr_0": {"name": "ps7_ddr_0",
+"base": "0x00100000",
+"high": "0x3FFFFFFF",
+"size": "1072693248",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_0": {"name": "ps7_ram_0",
+"base": "0x00000000",
+"high": "0x0002FFFF",
+"size": "196608",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_1": {"name": "ps7_ram_1",
+"base": "0xFFFF0000",
+"high": "0xFFFFFDFF",
+"size": "65024",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-525: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:48.893
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa ps7_cortexa9_1 C_DEBUG_ENABLED], Thread: Worker-525: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:48.894
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa ps7_cortexa9_1 C_DEBUG_ENABLED], Result: [null, ]. Thread: Worker-525: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:48.895
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa ps7_cortexa9_1 C_DEBUG_EVENT_COUNTERS], Thread: Worker-525: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:48.896
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa ps7_cortexa9_1 C_DEBUG_EVENT_COUNTERS], Result: [null, ]. Thread: Worker-525: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:48.896
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa ps7_cortexa9_1 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-525: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:48.898
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa ps7_cortexa9_1 C_DEBUG_LATENCY_COUNTERS], Result: [null, ]. Thread: Worker-525: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:48.898
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa ps7_cortexa9_1 C_DEBUG_COUNTER_WIDTH], Thread: Worker-525: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:48.899
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa ps7_cortexa9_1 C_DEBUG_COUNTER_WIDTH], Result: [null, ]. Thread: Worker-525: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:48.899
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa ps7_cortexa9_1 C_FREQ], Thread: Worker-525: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:48.901
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa ps7_cortexa9_1 C_FREQ], Result: [null, ]. Thread: Worker-525: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:48.901
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa ps7_cortexa9_1 C_CPU_CLK_FREQ_HZ], Thread: Worker-525: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:48.902
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa ps7_cortexa9_1 C_CPU_CLK_FREQ_HZ], Result: [null, 666666687]. Thread: Worker-525: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:48.908
+!MESSAGE XSCT Command: [connect -url tcp:localhost:4352], Thread: Worker-525: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:48.909
+!MESSAGE XSCT command with result: [connect -url tcp:localhost:4352], Result: [null, tcfchan#2]. Thread: Worker-525: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:48.911
+!MESSAGE XSCT Command: [targets 3], Thread: Worker-525: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:48.912
+!MESSAGE XSCT command with result: [targets 3], Result: [null, ]. Thread: Worker-525: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:48.913
+!MESSAGE XSCT Command: [dow C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_Test/Debug/Zynq_Design_Test.elf], Thread: Worker-525: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:49.078
+!MESSAGE XSCT command with result: [dow C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_Test/Debug/Zynq_Design_Test.elf], Result: [null, ]. Thread: Worker-525: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:49.361
+!MESSAGE XSCT Command: [targets 3], Thread: Worker-525: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:49.370
+!MESSAGE XSCT command with result: [targets 3], Result: [null, ]. Thread: Worker-525: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:49.370
+!MESSAGE XSCT Command: [con], Thread: Worker-525: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:14:49.401
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-525: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:15:35.754
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/sw/Zynq_Design_wrapper/standalone_ps7_cortexa9_0/system.mss ], Thread: Worker-525: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:15:35.758
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/sw/Zynq_Design_wrapper/standalone_ps7_cortexa9_0/system.mss ], Result: [null, ]. Thread: Worker-525: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:15:35.758
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/sw/Zynq_Design_wrapper/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-525: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:15:35.760
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/sw/Zynq_Design_wrapper/standalone_ps7_cortexa9_0/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "7.6",
+}]. Thread: Worker-525: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2022-03-27 21:15:35.760
+!MESSAGE Generating MD5 hash for file: C:\Users\wdb87\Documents\LabA\Using_IP_with_Zynq\lab1\Zynq_Design_wrapper\export\Zynq_Design_wrapper\sw\Zynq_Design_wrapper\standalone_ps7_cortexa9_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:15:35.761
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/sw/Zynq_Design_wrapper/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-525: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:15:35.762
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/sw/Zynq_Design_wrapper/standalone_ps7_cortexa9_0/system.mss], Result: [null, ]. Thread: Worker-525: Build Project
+
+!ENTRY com.xilinx.sdx.core 1 0 2022-03-27 21:15:36.471
+!MESSAGE Build step failed, canceling full build chain.
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:15:46.157
+!MESSAGE XSCT Command: [disconnect tcfchan#2], Thread: Thread-134
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:15:46.164
+!MESSAGE XSCT command with result: [disconnect tcfchan#2], Result: [null, ]. Thread: Thread-134
+
+!ENTRY org.eclipse.tcf 4 0 2022-03-27 21:16:11.757
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2022-03-27 21:16:11.757
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:16:12.495
+!MESSAGE XSCT Command: [connect -url tcp:localhost:4351], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:16:12.499
+!MESSAGE XSCT command with result: [connect -url tcp:localhost:4351], Result: [null, tcfchan#3]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:16:12.500
+!MESSAGE XSCT Command: [gdbremote connect localhost:1137], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:16:12.668
+!MESSAGE XSCT command with result: [gdbremote connect localhost:1137], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:16:12.669
+!MESSAGE XSCT Command: [connect -url tcp:localhost:4351], Thread: Worker-519: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:16:12.673
+!MESSAGE XSCT command with result: [connect -url tcp:localhost:4351], Result: [null, tcfchan#3]. Thread: Worker-519: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:16:12.674
+!MESSAGE XSCT Command: [targets 3], Thread: Worker-519: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:16:12.675
+!MESSAGE XSCT command with result: [targets 3], Result: [null, ]. Thread: Worker-519: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:16:12.676
+!MESSAGE XSCT Command: [dow C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_Test/Debug/Zynq_Design_Test.elf], Thread: Worker-519: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:16:12.959
+!MESSAGE XSCT command with result: [dow C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_Test/Debug/Zynq_Design_Test.elf], Result: [null, ]. Thread: Worker-519: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:16:13.153
+!MESSAGE XSCT Command: [targets 3], Thread: Worker-519: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:16:13.168
+!MESSAGE XSCT command with result: [targets 3], Result: [null, ]. Thread: Worker-519: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:16:13.168
+!MESSAGE XSCT Command: [con], Thread: Worker-519: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:16:13.196
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-519: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:16:59.245
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/sw/Zynq_Design_wrapper/standalone_ps7_cortexa9_0/system.mss ], Thread: Worker-521: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:16:59.248
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/sw/Zynq_Design_wrapper/standalone_ps7_cortexa9_0/system.mss ], Result: [null, ]. Thread: Worker-521: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:16:59.249
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/sw/Zynq_Design_wrapper/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-521: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:16:59.252
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/sw/Zynq_Design_wrapper/standalone_ps7_cortexa9_0/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "7.6",
+}]. Thread: Worker-521: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2022-03-27 21:16:59.252
+!MESSAGE Generating MD5 hash for file: C:\Users\wdb87\Documents\LabA\Using_IP_with_Zynq\lab1\Zynq_Design_wrapper\export\Zynq_Design_wrapper\sw\Zynq_Design_wrapper\standalone_ps7_cortexa9_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:16:59.253
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/sw/Zynq_Design_wrapper/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-521: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:16:59.254
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/sw/Zynq_Design_wrapper/standalone_ps7_cortexa9_0/system.mss], Result: [null, ]. Thread: Worker-521: Build Project
+
+!ENTRY com.xilinx.sdx.core 1 0 2022-03-27 21:16:59.788
+!MESSAGE Build step failed, canceling full build chain.
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:17:08.421
+!MESSAGE XSCT Command: [disconnect tcfchan#3], Thread: Thread-166
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:17:08.425
+!MESSAGE XSCT command with result: [disconnect tcfchan#3], Result: [null, ]. Thread: Thread-166
+
+!ENTRY org.eclipse.tcf 4 0 2022-03-27 21:17:33.671
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2022-03-27 21:17:33.671
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2022-03-27 21:17:33.674
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2022-03-27 21:17:33.674
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2022-03-27 21:17:33.675
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2022-03-27 21:17:33.675
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:17:34.379
+!MESSAGE XSCT Command: [connect -url tcp:localhost:4355], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:17:34.382
+!MESSAGE XSCT command with result: [connect -url tcp:localhost:4355], Result: [null, tcfchan#6]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:17:34.382
+!MESSAGE XSCT Command: [gdbremote connect localhost:1137], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:17:34.554
+!MESSAGE XSCT command with result: [gdbremote connect localhost:1137], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:17:34.555
+!MESSAGE XSCT Command: [connect -url tcp:localhost:4355], Thread: Worker-526: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:17:34.563
+!MESSAGE XSCT command with result: [connect -url tcp:localhost:4355], Result: [null, tcfchan#6]. Thread: Worker-526: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:17:34.564
+!MESSAGE XSCT Command: [targets 3], Thread: Worker-526: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:17:34.565
+!MESSAGE XSCT command with result: [targets 3], Result: [null, ]. Thread: Worker-526: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:17:34.565
+!MESSAGE XSCT Command: [dow C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_Test/Debug/Zynq_Design_Test.elf], Thread: Worker-526: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:17:34.858
+!MESSAGE XSCT command with result: [dow C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_Test/Debug/Zynq_Design_Test.elf], Result: [null, ]. Thread: Worker-526: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:17:35.055
+!MESSAGE XSCT Command: [targets 3], Thread: Worker-526: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:17:35.070
+!MESSAGE XSCT command with result: [targets 3], Result: [null, ]. Thread: Worker-526: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:17:35.070
+!MESSAGE XSCT Command: [con], Thread: Worker-526: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:17:35.100
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-526: Launching Debugger_Zynq_Design_Test-Emulation
