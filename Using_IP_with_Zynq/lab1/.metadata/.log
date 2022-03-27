@@ -3827,3 +3827,117 @@ java.lang.Error
 
 !ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:17:35.100
 !MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-526: Launching Debugger_Zynq_Design_Test-Emulation
+
+!ENTRY org.eclipse.tcf 4 0 2022-03-27 21:24:32.544
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2022-03-27 21:24:32.558
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2022-03-27 21:24:32.559
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2022-03-27 21:24:32.567
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2022-03-27 21:24:32.567
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2022-03-27 21:24:32.568
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:25:06.294
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/sw/Zynq_Design_wrapper/standalone_ps7_cortexa9_0/system.mss ], Thread: Worker-525: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:25:06.346
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/sw/Zynq_Design_wrapper/standalone_ps7_cortexa9_0/system.mss ], Result: [null, ]. Thread: Worker-525: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:25:06.346
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/sw/Zynq_Design_wrapper/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-525: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:25:06.360
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/sw/Zynq_Design_wrapper/standalone_ps7_cortexa9_0/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "7.6",
+}]. Thread: Worker-525: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2022-03-27 21:25:06.361
+!MESSAGE Generating MD5 hash for file: C:\Users\wdb87\Documents\LabA\Using_IP_with_Zynq\lab1\Zynq_Design_wrapper\export\Zynq_Design_wrapper\sw\Zynq_Design_wrapper\standalone_ps7_cortexa9_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:25:06.364
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/sw/Zynq_Design_wrapper/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-525: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:25:06.366
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/sw/Zynq_Design_wrapper/standalone_ps7_cortexa9_0/system.mss], Result: [null, ]. Thread: Worker-525: Build Project
+
+!ENTRY com.xilinx.sdx.core 1 0 2022-03-27 21:25:06.741
+!MESSAGE Build step failed, canceling full build chain.
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:25:31.499
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/sw/Zynq_Design_wrapper/standalone_ps7_cortexa9_0/system.mss ], Thread: Worker-523: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:25:31.503
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/sw/Zynq_Design_wrapper/standalone_ps7_cortexa9_0/system.mss ], Result: [null, ]. Thread: Worker-523: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:25:31.503
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/sw/Zynq_Design_wrapper/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-523: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:25:31.507
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/hw/Zynq_Design_wrapper.xsa C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/sw/Zynq_Design_wrapper/standalone_ps7_cortexa9_0/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "7.6",
+}]. Thread: Worker-523: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2022-03-27 21:25:31.507
+!MESSAGE Generating MD5 hash for file: C:\Users\wdb87\Documents\LabA\Using_IP_with_Zynq\lab1\Zynq_Design_wrapper\export\Zynq_Design_wrapper\sw\Zynq_Design_wrapper\standalone_ps7_cortexa9_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:25:31.508
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/sw/Zynq_Design_wrapper/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-523: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-03-27 21:25:31.510
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/sw/Zynq_Design_wrapper/standalone_ps7_cortexa9_0/system.mss], Result: [null, ]. Thread: Worker-523: Build Project
+
+!ENTRY com.xilinx.sdx.core 1 0 2022-03-27 21:25:31.802
+!MESSAGE Build step failed, canceling full build chain.

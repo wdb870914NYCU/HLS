@@ -10,3 +10,5 @@ timestamp=[2022-03-27 21:16:46], mode=PLATFORM_GENERATION, duration=0:00:03.543,
 timestamp=[2022-03-27 21:16:46], mode=BUILD, duration=0:00:00.087, duration_ms=87, data={name=Zynq_Design_Test, configuration=Debug, clean_build=true}
 timestamp=[2022-03-27 21:16:59], mode=PLATFORM_GENERATION, duration=0:00:08.780, duration_ms=8780, data={name=Zynq_Design_wrapper}
 timestamp=[2022-03-27 21:16:59], mode=BUILD, duration=0:00:00.524, duration_ms=524, data={name=Zynq_Design_Test, configuration=Debug, clean_build=false}
+timestamp=[2022-03-27 21:25:06], mode=BUILD, duration=0:00:00.366, duration_ms=366, data={name=Zynq_Design_Test, configuration=Debug, clean_build=false}
+timestamp=[2022-03-27 21:25:31], mode=BUILD, duration=0:00:00.289, duration_ms=289, data={name=Zynq_Design_Test, configuration=Debug, clean_build=false}

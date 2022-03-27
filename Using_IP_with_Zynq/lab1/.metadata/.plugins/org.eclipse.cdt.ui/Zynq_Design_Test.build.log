@@ -1,39 +1,9 @@
-21:16:59 **** Build of configuration Debug for project Zynq_Design_Test ****
+21:25:31 **** Incremental Build of configuration Debug for project Zynq_Design_Test ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
 ' '
 make --no-print-directory main-build
-'Building file: ../src/helloworld.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/sw/Zynq_Design_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:50:4: warning: implicit declaration of function 'XHls_macc_SetA'; did you mean 'XHls_macc_Set_b'? [-Wimplicit-function-declaration]
-   50 |    XHls_macc_SetA(&HlsMacc, a);
-      |    ^~~~~~~~~~~~~~
-      |    XHls_macc_Set_b
-../src/helloworld.c:51:4: warning: implicit declaration of function 'XHls_macc_SetB'; did you mean 'XHls_macc_Set_b'? [-Wimplicit-function-declaration]
-   51 |    XHls_macc_SetB(&HlsMacc, b);
-      |    ^~~~~~~~~~~~~~
-      |    XHls_macc_Set_b
-../src/helloworld.c:52:4: warning: implicit declaration of function 'XHls_macc_SetAccum_clr'; did you mean 'XHls_macc_Set_accum_clr'? [-Wimplicit-function-declaration]
-   52 |    XHls_macc_SetAccum_clr(&HlsMacc, 1);
-      |    ^~~~~~~~~~~~~~~~~~~~~~
-      |    XHls_macc_Set_accum_clr
-../src/helloworld.c:65:16: warning: implicit declaration of function 'XHls_macc_GetAccum'; did you mean 'XHls_macc_Get_accum'? [-Wimplicit-function-declaration]
-   65 |       res_hw = XHls_macc_GetAccum(&HlsMacc);
-      |                ^~~~~~~~~~~~~~~~~~
-      |                XHls_macc_Get_accum
-../src/helloworld.c:33:8: warning: unused variable 'i' [-Wunused-variable]
-   33 |    int i;
-      |        ^
-'Finished building: ../src/helloworld.c'
-' '
-'Building file: ../src/platform.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/sw/Zynq_Design_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
-'Finished building: ../src/platform.c'
-' '
 'Building target: Zynq_Design_Test.elf'
 'Invoking: ARM v7 gcc linker'
 arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/wdb87/Documents/LabA/Using_IP_with_Zynq/lab1/Zynq_Design_wrapper/export/Zynq_Design_wrapper/sw/Zynq_Design_wrapper/standalone_ps7_cortexa9_0/bsplib/lib -o "Zynq_Design_Test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
@@ -42,5 +12,5 @@ collect2.exe: error: ld returned 1 exit status
 make[1]: *** [makefile:43: Zynq_Design_Test.elf] Error 1
 make: *** [makefile:34: all] Error 2
 
-21:16:59 Build Finished (took 517ms)
+21:25:31 Build Finished (took 270ms)
 
