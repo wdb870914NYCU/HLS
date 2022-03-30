@@ -11,4 +11,4 @@
 * Export Hardware
 * Program FPGA (using Vitis IDE)
 # Result/Analysis
-![Image](https://imgur.com/kHoEbFf)
+![Image]("Result Example.png")
